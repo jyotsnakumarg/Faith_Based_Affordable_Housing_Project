@@ -48,7 +48,7 @@ This map represents the percentage of each state in which there is ‘rent burde
   </div>
 
   <div class="map-item">
-    <img src="YIGBYMap (1).png" alt="YIGBY Legislation and Development Counts">
+    <img src="YIGBYMap (2).png" alt="YIGBY Legislation and Development Counts">
     <p>
       The status of YIGBY legislation* compared with statewise development counts, as of 2025, can be compared here. Each state is colored based on whether they have passed laws, considered laws, declined to pass laws, or have not considered YIGBY legislation. Overlaid are circles representing the total number of developments passed in each state.
 
