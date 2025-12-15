@@ -50,7 +50,8 @@ This map represents the percentage of each state in which there is ‘rent burde
   <div class="map-item">
     <img src="YIGBYMap (2).png" alt="YIGBY Legislation and Development Counts">
     <p>
-      The status of YIGBY legislation* compared with statewise development counts, as of 2025, can be compared here. Each state is colored based on whether they have passed laws, considered laws, declined to pass laws, or have not considered YIGBY legislation. Overlaid are circles representing the total number of developments passed in each state.
+The status of YIGBY legislation* compared with statewise development counts, as of 2025, can be compared here. The list of states was prepared by the research team for the Faith-based Affordable Housing project. This data was initially in excel format, which was spatially joined with shoreline-clipped state shapefiles from NHGIS. 
+Each state is colored based on whether they have passed laws, considered laws, declined to pass laws, or have not considered YIGBY legislation. Overlaid are circles representing the total number of developments passed in each state. 
 
       <br><br>
       <em>*This map includes statewise legislation. YIGBY laws have also been passed at the local level, which is not included in the visualization.</em>
@@ -64,7 +65,7 @@ This map represents the percentage of each state in which there is ‘rent burde
 
 ### US Developments
 <iframe src="InteractiveWebmapFB.html" height="855" width="95%"></iframe>
-All 200 developments in the database (as of December 2025) are included in this map. The pattern of faith-based housing developments being constructed can be visualized using the timeline slider, which populates the developments by year*. 
+All 200 developments in the database (as of December 2025) are included in this map. These developments were cleaned extensively and geocoded using ArcGIS geocoder in Python, and visualized using the folium library. The pattern of faith-based housing developments being constructed can be visualized using the timeline slider, which populates the developments by year*. The construction time data was cleaned to bring it to a visualizable format in folium’s timeline slider tool. 
 
 Clicking on each development reveals a small popup which provides information on:
 - The project name
@@ -76,12 +77,12 @@ Clicking on each development reveals a small popup which provides information on
 - If the property has a historic status
 - The project description
 
-Statewise trends can be toggled on/off, in the upper right-hand corner of the map. They provide information on the rent-burdened population, the status of YIGBY law implementation**, and the number of developments in each state. Hovering over each feature reveals information on each trend.
+Statewise trends can be toggled on/off, in the upper right-hand corner of the map. They provide information on the rent-burdened population, the status of YIGBY law implementation**, and the number of developments in each state. Hovering over each feature reveals information on each trend. These datasets were prepared from the static maps.
 
 The basemap can also be switched between a simple Carto Positron basemap and Open Street Map, which can be helpful to examine other local features if you zoom into the basemap.
 
-*4 developments’ opening dates have not been identified. They populate in the final year of the timeline slider, 2025.
-**As per December, 2025.
+      <br><br>
+      <em>*4 developments’ opening dates have not been identified. They populate in the final year of the timeline slider, 2025. **As per December, 2025.</em>
 
 ### NYC Developments and Housing
 <iframe src="NYCFaithBased.html" height="855" width="95%"></iframe>
