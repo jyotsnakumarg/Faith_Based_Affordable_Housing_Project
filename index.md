@@ -61,6 +61,8 @@ This map represents the percentage of each state in which there is ‘rent burde
 
 
 ## Interactive Maps
+
+### US Developments
 <iframe src="InteractiveWebmapFB.html" height="855" width="95%"></iframe>
 All 200 developments in the database (as of December 2025) are included in this map. The pattern of faith-based housing developments being constructed can be visualized using the timeline slider, which populates the developments by year*. 
 
@@ -81,7 +83,12 @@ The basemap can also be switched between a simple Carto Positron basemap and Ope
 *4 developments’ opening dates have not been identified. They populate in the final year of the timeline slider, 2025.
 **As per December, 2025.
 
-
+### NYC Developments and Housing
 <iframe src="NYCFaithBased.html" height="855" width="95%"></iframe>
 
-This dynamic map showcases the developments that are specific to New York City. It is overlayed with a heat map representing the residential evictions that have happened within the past two year (2023-2025), in addition to this, one can see the parts of NYC that are zoned as “inclusionary Housing Areas.” This means that developers building in those areas get a tax credit for including affordable housing units in their buildings. The data was pulled from the NYC open data portal.
+This dynamic map showcases the developments that are specific to New York City. It is overlayed with a heat map representing the residential evictions that have happened within the past two year (2023-2025), in addition to this, one can see the parts of NYC that are zoned as “Inclusionary Housing Areas.” This means that developers building in those areas get a tax credit for including affordable housing units in their buildings. The data was pulled from the NYC open data portal.
+
+### Credits
+These maps were created for Command-Line GIS, a graduate course taught at Rutgers. 
+Jyotsna Kumar prepared the static map on rent burdens and the interactive map on NYC developments and housing.
+Sharanya Sahu prepared the static map on YIGBY legislation and the interactive map on US developments.
