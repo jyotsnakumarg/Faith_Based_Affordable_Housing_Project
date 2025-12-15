@@ -1,6 +1,6 @@
 # Faith Based Affordable Housing 
 
-This project is based on the research of Dr. Nadia Mian at the Voorhees Center for Civic Engagement on "YIGBY" developments. YIBGY refers to "Yes in God's Backyard" in which faith-based
+This project is based on the research of Dr. Nadia Mian at the Voorhees Center for Civic Engagement on "YIGBY" developments. YIGBY refers to "Yes in God's Backyard" in which faith-based
 insitutions such as churches, synagouges, mosques, etc that had redeveloped a part of their sites to be turned into affordable housing units. The following map intreprets data that 
 has been collected through scraping data about the developments created from 2015-2025, as well as data from the US Census and current YIBGY legislature. 
 
