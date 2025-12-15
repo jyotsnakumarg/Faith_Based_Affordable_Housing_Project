@@ -10,7 +10,7 @@ This webmap will include two static maps and two dynamic maps to held visualize 
 <iframe src="Rent Burdened Map.png" height="855" width="95%"></iframe>
 This map represents the percentage of each state in which there is ‘rent burden’ this means renter spend 30% or more of the household income on their rent. The map represents the percentage of people who are rent burdened in each state. This was created using the ACS 2016-2020 Estimates from the US Census. Overlayed is the faith-based development points. The intention with this static map is to showcase the relationship between affordable housing development and rent burdened populations.
 
-<iframe src="YIBGYStates.jpg" height="855" width="95%"></iframe>
+<iframe src="YIBGYMap (1).png" height="855" width="95%"></iframe>
 
 #Interactive Maps
 <iframe src="InteractiveWebmapFB.html" height="855" width="95%"></iframe>
